@@ -18,7 +18,6 @@ import {
 } from "@/components/ui/form";
 import { Select, SelectContent, SelectItem, SelectValue, SelectTrigger } from "@/components/ui/select";
 import { Input } from "@/components/ui/input";
-import { Toast } from "@/components/ui/toast";
 import { Textarea } from "@/components/ui/textarea";
 import { UploadButton } from "@/utils/uploadthing";
 import { toast } from "@/components/ui/use-toast";
