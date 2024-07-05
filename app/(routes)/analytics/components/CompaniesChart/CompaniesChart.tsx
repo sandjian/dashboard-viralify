@@ -2,7 +2,6 @@
 
 import {BarChart,Bar,XAxis,YAxis,CartesianGrid,Tooltip,Legend,ResponsiveContainer} from "recharts"
 import { CompaniesChartProps } from "./CompaniesChart.types";
-import { Barcode } from "lucide-react";
 
 export function CompaniesChart(props: CompaniesChartProps) {
     const { companies, events } = props
