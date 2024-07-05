@@ -1,9 +1,9 @@
 "use client";
-
+import FullCalendar from "@fullcalendar/react"
 import { useState,useEffect } from "react";
 import { useRouter } from "next/navigation";
 import multiMonthPuglin from "@fullcalendar/multimonth";
-import FullCalendar from "@fullcalendar/react";
+
 import dayGridPlugin from "@fullcalendar/daygrid";
 import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin from "@fullcalendar/interaction";
